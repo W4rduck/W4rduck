@@ -1,0 +1,15 @@
+/workspaces/W4rduck/bin/Debug/net8.0/W4rduck
+/workspaces/W4rduck/bin/Debug/net8.0/W4rduck.deps.json
+/workspaces/W4rduck/bin/Debug/net8.0/W4rduck.runtimeconfig.json
+/workspaces/W4rduck/bin/Debug/net8.0/W4rduck.dll
+/workspaces/W4rduck/bin/Debug/net8.0/W4rduck.pdb
+/workspaces/W4rduck/obj/Debug/net8.0/W4rduck.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/W4rduck/obj/Debug/net8.0/W4rduck.AssemblyInfoInputs.cache
+/workspaces/W4rduck/obj/Debug/net8.0/W4rduck.AssemblyInfo.cs
+/workspaces/W4rduck/obj/Debug/net8.0/W4rduck.csproj.CoreCompileInputs.cache
+/workspaces/W4rduck/obj/Debug/net8.0/W4rduck.sourcelink.json
+/workspaces/W4rduck/obj/Debug/net8.0/W4rduck.dll
+/workspaces/W4rduck/obj/Debug/net8.0/refint/W4rduck.dll
+/workspaces/W4rduck/obj/Debug/net8.0/W4rduck.pdb
+/workspaces/W4rduck/obj/Debug/net8.0/W4rduck.genruntimeconfig.cache
+/workspaces/W4rduck/obj/Debug/net8.0/ref/W4rduck.dll

@@ -46,7 +46,10 @@ public class Program
 				case "D": operation = "/";break;
 				case "O": options = OptionsStatement();break;
 				case "Q": return;
-				default: Console.WriteLine("Please enter a valid choise, press a key to continue");break;
+				default: 
+					Console.WriteLine("Please enter a valid choise, press a key to continue");
+					Console.ReadLine();
+					break;
 			}
 			
 			if(operation != "")
@@ -55,9 +58,15 @@ public class Program
 				for(int i = 0; i < options.NumberOfGames; i++)
 				{
 					if(AnswerQuestionProcess(operation, options))
+					{
 						Console.WriteLine("Correct, press a key to continue");
+						Console.ReadLine();
+					}
 					else
+					{
 						Console.WriteLine("False, press a key to continue");
+						Console.ReadLine();
+					}
 				}
 			}
 		}
