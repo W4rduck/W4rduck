@@ -9,8 +9,6 @@
 /*
 	TODO: 
 		- Finir la boucle principale avec vérification que les entrée sont valides
-		- Implemnter les options (nombre partie + niveau de difficulté)
-		- Implementer un compteur de vie
 		- Implementer un score
 		- Implementer un mode "Time attack"
 */
@@ -22,6 +20,8 @@ public class Program
 	{
 		//Start of the game
 		Options options = new Options();
+		int NumberOfTry = 5;
+
 		//Main loop
 		while(true)
 		{
@@ -35,7 +35,7 @@ public class Program
 			options.DisplayOptions();
 			Console.WriteLine("----------------------------------");
 
-			string answer = Console.ReadLine().ToUpper();
+			string? answer = Console.ReadLine().ToUpper();
 			string operation = "";
 			
 			switch(answer)
@@ -54,9 +54,17 @@ public class Program
 			
 			if(operation != "")
 			{
+				Console.Clear();
 				//Loop's Length define by NumberOfGames in options
 				for(int i = 0; i < options.NumberOfGames; i++)
 				{
+					if(NumberOfTry == 0)
+					{
+						Console.WriteLine("You lose, press a key to continue");
+						Console.ReadLine();
+						break;
+					}
+
 					if(AnswerQuestionProcess(operation, options))
 					{
 						Console.WriteLine("Correct, press a key to continue");
@@ -64,6 +72,7 @@ public class Program
 					}
 					else
 					{
+						NumberOfTry--;
 						Console.WriteLine("False, press a key to continue");
 						Console.ReadLine();
 					}
@@ -147,7 +156,7 @@ public class Program
 		{
 			Console.Clear();
 			Console.Write("Number of game: ");
-			string answer = Console.ReadLine();
+			string? answer = Console.ReadLine();
 			int numberOfGame;
 
 
