@@ -7,9 +7,9 @@
     "/workspaces/W4rduck/W4rduck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/W4rduck/W4rduck.csproj",
+        "projectUniqueName": "/workspaces/W4rduck/MathGame.csproj",
         "projectName": "W4rduck",
-        "projectPath": "/workspaces/W4rduck/W4rduck.csproj",
+        "projectPath": "/workspaces/W4rduck/MathGame.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
         "outputPath": "/workspaces/W4rduck/obj/",
         "projectStyle": "PackageReference",
