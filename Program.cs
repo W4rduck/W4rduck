@@ -54,7 +54,6 @@ public class Program
 			
 			if(operation != "")
 			{
-				Console.Clear();
 				//Loop's Length define by NumberOfGames in options
 				for(int i = 0; i < options.NumberOfGames; i++)
 				{
@@ -85,6 +84,8 @@ public class Program
 	
 	public static bool AnswerQuestionProcess(string operation, Options options)
 	{
+		Console.Clear();
+		
 		int numAnswer;
 		Calculation calc = null;
 		int min = 0;
