@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("W4rduck")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62129f1b969a992c6ed88ae7bfc4dd8689d4e4d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ca89135346717cf6c070f6875807633c0650229")]
 [assembly: System.Reflection.AssemblyProductAttribute("W4rduck")]
 [assembly: System.Reflection.AssemblyTitleAttribute("W4rduck")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
